@@ -7,11 +7,8 @@ local ops = {
     ["/"] = function(a,b) return a / b end
 }
 
-io.write("Enter value of A: ")
-local a = tonumber(io.read())
-
-io.write("Enter value of B: ")
-local b = tonumber(io.read())
+io.write("Enter two numbers: ")
+local a, b = io.read("*n", "*n")
 
 io.write("Enter operator (+, -, *, /): ")
 local op = io.read()
