@@ -4,3 +4,4 @@
 luarocks*
 *.rock
 *.rockspec
+*.out
