@@ -1,0 +1,6 @@
+.vscode/
+
+*.luac
+luarocks*
+*.rock
+*.rockspec
