@@ -1,9 +1,8 @@
 -- Lua script to find factorial of a number
 
 local function factorial(num)
-    if num == 0 then
-        return 1
-    end
+    if num == 0 then return 1 end
+
     return num * factorial(num - 1)
 end
 

@@ -1,6 +1,6 @@
 LUA_FILES := $(wildcard src/*.lua)
 
-all:
+check:
 	@echo "Checking Lua syntax..."
 	@for f in $(LUA_FILES); do \
 		echo " - $$f"; \
@@ -8,4 +8,4 @@ all:
 	done
 	@echo "No syntax error detected!"
 
-.PHONY: all
+.PHONY: check
